@@ -18,7 +18,7 @@
  */
 import React from 'react';
 import numeral from 'numeral';
-import dayjs, { Dayjs } from 'dayjs';
+import dayjs from 'dayjs';
 import TranslatorContext from '../language/translator-context';
 import 'numeral/locales';
 
