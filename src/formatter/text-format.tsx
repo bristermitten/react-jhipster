@@ -29,7 +29,7 @@ interface CommonTextFormatProps {
 }
 
 interface ITextFormatDateProps extends CommonTextFormatProps {
-  value: Date | Dayjs;
+  value: dayjs.ConfigType;
   type: 'date';
 }
 
